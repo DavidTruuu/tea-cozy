@@ -1,0 +1,147 @@
+/* Overall */ 
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: .9;
+    text-align: center;
+}
+
+.block {
+    margin: 0 100px;
+}
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    opacity: .9;
+    z-index: 999;
+}
+
+.header-text li {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+.logo {
+    height: 50px;
+    margin: 10px;
+}
+
+/* Mission Statement Block */
+.ms {
+    margin-bottom: -100px;
+}
+
+.mission-statement {
+    height: 700px;
+    justify-content: center;
+    margin-top: 59px;
+}
+
+.mission-text {
+    display: inline-block;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    opacity: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -300%);
+    width: 100%;
+;
+}
+
+/* Tea of the Month Block */
+.tea-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: -20px;
+}
+
+.tea-box img {
+   height: 200px;
+   width: 300px;
+}
+
+.tea-box p { 
+    margin-top: 2px;
+}
+
+/* Location */
+.location {
+    margin-bottom: -200px;
+}
+
+.loco {
+    justify-content: center;
+    height: 500px;
+    width: 70%;
+    border-image-repeat: stretch;
+}
+
+.locations {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+
+    gap: 50px;
+    margin: 0 0px;
+    opacity: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -175%);
+    justify-content: center;
+}
+
+.maine-box {
+    align-items: center;
+    width: 300px;
+    background-color: black;
+}
+
+.location h2 {
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, 300%); 
+}
+
+/* Contact */
+.contact {
+    height: 200px;
+}
+
+/* Footer */
+footer {
+    text-align: left;
+    margin-left: 20px
+}
+
+/* Media Query */
+
+@media screen and (max-width: 1000px) {
+    .loco {
+        width: 80vw;
+    }
+
+    .mission-statement {
+        width: 80vw;
+
+    }
+
+    .mission-text {
+        justify-content: center;
+    }
+
+} 
